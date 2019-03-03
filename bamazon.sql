@@ -19,7 +19,9 @@ VALUES ("Underwear (Black)", "Men's Clothing", 24.99, 100),
 ("Nutri-Grain bars (8)", "Food", 3.49, 30),
 ("Gym Duffel Bag (Black)", "Luggage", 23.99, 3),
 ("Suavecito Pomade", "Bath & Beauty", 11.99, 10),
-("Smartwater, Sparlking (1L)", "Beverages", 1.99, 32),
-("Bannanas (3 lbs)", "Food", 1.49, 12);
+("Smartwater, Sparkling (1L)", "Beverages", 1.99, 32),
+("Bananas (3 lbs)", "Food", 1.49, 12);
+
+UPDATE products SET product_name = "Bananas" WHERE item_id = 10;
 
 SELECT * FROM products;
